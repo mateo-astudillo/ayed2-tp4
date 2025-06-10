@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>com.mast</groupId>
+  <groupId>com.ayed2</groupId>
   <artifactId>tp4</artifactId>
   <packaging>jar</packaging>
   <version>1.0</version>
@@ -12,12 +12,6 @@
     <maven.compiler.target>21</maven.compiler.target>
   </properties>
   <dependencies>
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>3.8.1</version>
-      <scope>test</scope>
-    </dependency>
   </dependencies>
   <build>
     <plugins>
@@ -26,7 +20,7 @@
         <artifactId>exec-maven-plugin</artifactId>
         <version>3.2.0</version>
         <configuration>
-          <mainClass>com.mast.App</mainClass>
+          <mainClass>com.ayed2.App</mainClass>
         </configuration>
       </plugin>
       <plugin>
@@ -36,7 +30,7 @@
         <configuration>
           <archive>
             <manifest>
-              <mainClass>com.mast.App</mainClass>
+              <mainClass>com.ayed2.App</mainClass>
             </manifest>
           </archive>
         </configuration>
